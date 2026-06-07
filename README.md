@@ -98,31 +98,6 @@ Open the app in your browser, then:
 
 ---
 
-## Generated Project Structure
-
-```text
-src/
- ├── app/
- ├── core/
- ├── shared/
- ├── features/
- │    ├── pets/          ← one per entity
- │    │   ├── pet-list.component.ts
- │    │   ├── pet-create.component.ts
- │    │   ├── pet-edit.component.ts
- │    │   └── pet-details.component.ts
- │    ├── products/
- │    └── customers/
- ├── layouts/
- └── routes/
-     ├── app.routes.ts
-     ├── pet.routes.ts
-     ├── product.routes.ts
-     └── customer.routes.ts
-```
-
----
-
 ## Technology Stack
 
 | Layer           | Choice                              |
