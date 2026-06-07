@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm ci
+      - run: npm i
       - run: npx ng build --base-href "/angular-smart-crud-generator/"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
