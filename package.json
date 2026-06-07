@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy:ghpages": "ng build --base-href \"/angular-smart-crud-generator/\" && npx angular-cli-ghpages --dir=dist/angular-smart-crud-generator/browser"
   },
   "prettier": {
     "printWidth": 100,
