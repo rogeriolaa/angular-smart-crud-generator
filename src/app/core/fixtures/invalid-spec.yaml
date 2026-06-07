@@ -1,0 +1,9 @@
+openapi: 3.0.0
+info:
+  title: Invalid Spec
+paths:
+  /test:
+    get:
+      responses:
+        "200":
+          description: OK
